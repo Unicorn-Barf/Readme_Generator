@@ -45,7 +45,8 @@ const questions = [
         message: 'Choose a license:',
         name: 'license',
         type: 'list',
-        default: ['license 1', 'license 2', 'license 3', 'license 4'],
+        choices: ['MIT', 'GPLv3', 'Apache 2.0', 'BSD 3', 'No license'],
+        default: ['No License']
     },
     {
         message: 'What is your Github username?',
@@ -68,22 +69,31 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    console.log('hit');
+    fs.writeFile(`README.md`, generateMarkdown(data), err => {
+        if (err) {
+            console.log(err);
+            return;
+        }
+        else {
+            console.log('Sucess!');
+        }
+    })
+}
 
 // TODO: Create a function to initialize app
 // This will start the user prompts in the command line to get information
 // for the REAME.md
 function init() {
-    return new Promise(function (resolve, reject) {
         inquirer
         .prompt(questions)
         .then(answers => {
-            resolve(answers);
+            writeToFile(answers.name, answers);
         })
         .catch(err => {
-            reject(err);
-        })
-    });
+            console.log(err);
+        });
 };
 
 // Function call to initialize app
