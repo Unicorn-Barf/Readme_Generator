@@ -6,6 +6,12 @@ const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 const questions = [
     {
+        message: 'What is the file name (use file type .md)?',
+        name: 'fileName',
+        type: 'input',
+        default: 'draftReadme.md',
+    },
+    {
         message: 'What is the title of the project?',
         name: 'title',
         type: 'input',
@@ -69,9 +75,9 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(data) {
+function writeToFile(fileName, data) {
     console.log('hit');
-    fs.writeFile('who.md', generateMarkdown(data), err => {
+    fs.writeFile(`${fileName}`, generateMarkdown(data), err => {
         if (err) {
             console.log(err);
             return;
@@ -89,7 +95,7 @@ function init() {
         inquirer
         .prompt(questions)
         .then(answers => {
-            writeToFile(answers.name, answers);
+            writeToFile(answers.fileName, answers);
         })
         .catch(err => {
             console.log(err);
