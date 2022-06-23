@@ -1,13 +1,13 @@
-# Project Title
+# Readme Generator
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Description
 
-  About this project:
+  This commandline application will automatically generate a README.md for the user
   ## Table of Contents
 
-  - [Installation](#overview)
+  - [Installation](#installation)
 
   - [Usage](#usage)
 
@@ -21,30 +21,30 @@
 
   ## Installation
 
-  How to install:
+  Go to my Github!
 
   ## Usage
 
-  How to use:
+  Easily
 
   ## License
 
-  The license used is MIT found here:
-[License: MIT](https://opensource.org/licenses/MIT)
+  The license used is Apache 2.0 found here:
+ [License: Apache 2.0](https://opensource.org/licenses/Apache-2.0)
 
   ## Contributing
 
-  Contribution guidlines:
+  Submit a pull request please!
 
   ## Tests
 
-  Test instructions:
+  Please test it!
 
   ## Questions
 
-  Github-Username
+  Please contact me at my email!
 
-  beyourself@yasskween.com
+  - Github [Unicorn-Barf](github.com/Unicorn-Barf)
 
-  Knock on my back door!
+  - Email nolan.spence7@gmail.com
 

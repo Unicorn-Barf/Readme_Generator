@@ -37,13 +37,13 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   switch (license) {
     case 'MIT':
-      return `The license used is MIT found here:\n${renderLicenseLink(license)}`;
+      return `The license used is MIT found here: ${renderLicenseLink(license)}`;
     case 'GPLv3':
-      return `The license used is GPL v3 found here:\n${renderLicenseLink(license)}`;
+      return `The license used is GPL v3 found here:\n ${renderLicenseLink(license)}`;
     case 'Apache 2.0':
-      return `The license used is Apache 2.0 found here:\n${renderLicenseLink(license)}`;
+      return `The license used is Apache 2.0 found here:\n ${renderLicenseLink(license)}`;
     case 'BSD 3':
-      return `The license used is BSD 3 found here:\n${renderLicenseLink(license)}`;
+      return `The license used is BSD 3 found here:\n ${renderLicenseLink(license)}`;
     default:
       return '';
   }
@@ -75,9 +75,9 @@ function generateMarkdown(data) {
   ## Tests\n
   ${data.test}\n
   ## Questions\n
-  ${data.username}\n
-  ${data.email}\n
   ${data.contactIns}\n
+  - Github [${data.username}](github.com/${data.username})\n
+  - Email ${data.email}\n
 `;
 }
 
