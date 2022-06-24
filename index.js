@@ -9,7 +9,7 @@ const questions = [
         message: 'What is the file name (use file type .md)?',
         name: 'fileName',
         type: 'input',
-        default: 'draftReadme.md',
+        default: 'README.md',
     },
     {
         message: 'What is the title of the project?',
