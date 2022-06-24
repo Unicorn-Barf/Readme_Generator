@@ -1,10 +1,10 @@
-# Readme generator
+# Readme Generator
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
 
-  This generates a professional readme from the command line.
+  This application automatically generates a readme from user input.
   ## Table of Contents
 
   - [Installation](#installation)
@@ -21,11 +21,11 @@
 
   ## Installation
 
-  Download and play!
+  Clone repo and run npm install in the command line.
 
   ## Usage
 
-  How to use this application.
+  Use it freely.
 
   ## License
 
@@ -33,11 +33,11 @@
 
   ## Contributing
 
-  Please submit a pull request!
+  Submit a pull request.
 
   ## Tests
 
-  Insert test here.
+  There are currently no tests.
 
   ## Questions
 

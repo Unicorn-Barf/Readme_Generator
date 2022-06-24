@@ -77,7 +77,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     console.log('hit');
-    fs.writeFile(`${fileName}`, generateMarkdown(data), err => {
+    fs.writeFile(`draftReadme/${fileName}`, generateMarkdown(data), err => {
         if (err) {
             console.log(err);
             return;

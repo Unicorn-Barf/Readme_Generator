@@ -56,12 +56,12 @@ THEN I am taken to the corresponding section of the README
 ​
 This application will run from the command line.  Make sure that you are in the directory of the index.js file in your CLI for it to work; in the command line enter `node index.js` and follow the prompts.  The video linked below shows how to use the application.
 
-[Demo Video](https://drive.google.com/file/d/1wjWBaZCB55_fx3eoMjduWL0r2u7_ObES/view)
+[Demo Video](https://drive.google.com/file/d/11oZtRsfK3GwdXrVq6pUsri7d4UHruy5S/view)
 ​
 ​
 ### Links
 ​
-- Solution URL: [https://github.com/Unicorn-Barf/Weather_Dashboard](https://github.com/Unicorn-Barf/Readme_Generator)
+- Solution URL: [https://github.com/Unicorn-Barf/Readme_Generator](https://github.com/Unicorn-Barf/Readme_Generator)
 ​
 ## My process
 ​
