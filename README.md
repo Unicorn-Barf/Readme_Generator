@@ -95,7 +95,7 @@ The application uses modularization in order to keep the code clean and DRY.  Th
 ```js
 function writeToFile(fileName, data) {
     console.log('hit');
-    fs.writeFile(`${fileName}`, generateMarkdown(data), err => {
+    fs.writeFile(`draftReadme/${fileName}`, generateMarkdown(data), err => {
         if (err) {
             console.log(err);
             return;
@@ -107,7 +107,7 @@ function writeToFile(fileName, data) {
 }
 ```
 
-As seen above, the `writeToFile()` function can easily create a .md file with the file name entered by the user.  It uses the `generateMarkdown()` utility that was exported from utilities and imported into the index.js file.  It seamlessly provides the generated markdown file to be written to a new file named by the user.
+As seen above, the `writeToFile()` function can easily create a .md file with the file name entered by the user.  It uses the `generateMarkdown()` utility that was exported from utilities and imported into the index.js file.  It seamlessly provides the generated markdown file to be written to a new file named by the user in a separate folder called `draftReadme` to keep it from overwriting the project `REAME.md`.
 ​
 ### Continued development
 ​
