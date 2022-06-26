@@ -1,49 +1,46 @@
-# Readme Generator
+# Project Title
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  ## Description
 
-  This application automatically generates a readme from user input.
-  ## Table of Contents
+## Description
 
-  - [Installation](#installation)
+About this project:
+## Table of Contents
 
-  - [Usage](#usage)
+- [Installation](#installation)
 
-  - [License](#license)
+- [Usage](#usage)
 
-  - [Contributing](#contributing)
 
-  - [Tests](#tests)
+- [Contributing](#contributing)
 
-  - [Questions](#questions)
+- [Tests](#tests)
 
-  ## Installation
+- [Questions](#questions)
 
-  Clone repo and run npm install in the command line.
+## Installation
 
-  ## Usage
+How to install:
 
-  Use it freely.
+## Usage
 
-  ## License
+How to use:
 
-  The license used is MIT found here: [License: MIT](https://opensource.org/licenses/MIT)
 
-  ## Contributing
 
-  Submit a pull request.
+## Contributing
 
-  ## Tests
+Contribution guidlines:
 
-  There are currently no tests.
+## Tests
 
-  ## Questions
+Test instructions:
 
-  Please email me.
+## Questions
 
-  - Github [Unicorn-Barf](github.com/Unicorn-Barf)
+Knock on my back door!
 
-  - Email nolan.spence7@gmail.com
+- Github [Github-Username](github.com/Github-Username)
+
+- Email beyourself@yasskween.com
 
